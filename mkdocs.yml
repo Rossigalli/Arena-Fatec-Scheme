@@ -1,0 +1,43 @@
+site_name: ArenaFatec
+
+nav:
+  - Home: index.md
+  - Sobre: sobre.md
+
+plugins:
+  - search:
+      lang: 
+        - pt
+        - en
+
+theme:
+  name: material
+  language: pt
+  favicon: assets/images/favicon.ico
+  logo: assets/images/logo.png
+  feature:
+    - navigation.top
+
+
+  palette: 
+
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  
+extra_css: [assets/css/custom.css]
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
