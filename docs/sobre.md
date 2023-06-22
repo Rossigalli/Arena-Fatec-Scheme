@@ -15,50 +15,100 @@ Além disso, buscamos destacar o nome da FATEC de São Sebastião como uma insti
 Agradecemos a todos que têm nos apoiado nessa jornada. Acompanhe nosso progresso e participe das próximas competições do Arena Fatec. Junte-se a nós e faça parte dessa comunidade apaixonada por jogos digitais! 
 {: .justify }
 
-[ :material-web: ArenaFatec](https://arenafatecss.games){: .mr-10} | [ :fontawesome-brands-instagram: Fatec](https://www.instagram.com/fatecsaosebastiao/){: .ml-10 .mr-10 } | [ :material-web: Fatec](https://www.fatecsaosebastiao.edu.br){: .ml-10 }
+
+<div class="social-media-container" markdown>
+
+[ :material-web: ArenaFatec](https://arenafatecss.games)
+
+|
+
+[ :fontawesome-brands-instagram: Fatec](https://www.instagram.com/fatecsaosebastiao/)
+
+|
+
+[ :material-web: Fatec](https://www.fatecsaosebastiao.edu.br)
+
+</div>
 
 ***
 
 ## Equipe
 
-<div class="flex-row gap-20" markdown>
+<div class="team-member-container gap-20" markdown>
 
-![Álvaro Machado da Luz](./assets/images/Alvaro%20Machado.png){: .circle align=top }
-<div class="flex-column" markdown>
-<span class="small-text" markdown>Organizador</span><br>
-<span class="large-text courier" markdown>**Alvaro Machado**</span><br>
-<span markdown>alvaro.luz@fatec.sp.gov.br</span>
-</div>
-</div>
+![Álvaro](./assets/images/Alvaro%20Machado.png){: .team-member-picture }
 
+<div class="team-member-desc" markdown>
 
-<div class="flex-row align-right gap-20"markdown>
-<div class="flex-column" markdown>
-<span class="small-text" markdown>Organizador</span><br>
-<span class="large-text courier" markdown>**Matheus Rossigalli**</span><br>
-<span markdown>Matheus.rossigalli@fatec.sp.gov.br</span>
-</div>
+Gerente de Projeto
+{: .small-text}
 
-![Matheus Costa Rossigalli](./assets/images/Matheus%20Rossigalli.png){: .circle align=top }
+**Alvaro Luz**
+{: .large-text .courier}
+
+alvaro.luz@fatec.sp.gov.br
+{: .small-text}
+
 </div>
 
-<div class="flex-row gap-20" markdown>
-
-![Breno Machado](./assets/images/Breno%20Machado.png){: .circle align=top }
-<div class="flex-column" markdown>
-<span class="small-text" markdown>Desenvolvedor</span><br>
-<span class="large-text courier" markdown>**Breno Machado**</span><br>
-<span markdown>@fatec.sp.gov.br</span>
-</div>
 </div>
 
 
-<div class="flex-row align-right gap-20" markdown>
-<div class="flex-column" markdown>
-<span class="small-text" markdown>Desenvolvedor</span><br>
-<span class="large-text courier" markdown>**Felipe Tosta**</span><br>
-<span markdown>@fatec.sp.gov.br</span>
+<div class="team-member-container gap-20"markdown>
+
+![Matheus](./assets/images/Matheus%20Rossigalli.png){: .team-member-picture }
+
+<div class="team-member-desc" markdown>
+
+Autor | Gerente de Desenvolvimento
+{: .small-text}
+
+**Matheus Rossigalli**
+{: .large-text .courier}
+
+Matheus.rossigalli@fatec.sp.gov.br
+{: .small-text}
+
 </div>
 
-![Felipe Tosta](./assets/images/Felipe%20Tosta.png){: .circle align=top }
 </div>
+
+<div class="team-member-container gap-20" markdown>
+
+![Breno](./assets/images/Breno%20Machado.png){: .team-member-picture  }
+
+<div class="team-member-desc" markdown>
+
+Programador
+{: .small-text}
+
+**Breno Machado**
+{: .large-text .courier}
+
+breno.santos21@fatec.sp.gov.br
+{: .small-text}
+
+</div>
+
+</div>
+
+
+<div class="team-member-container gap-20" markdown>
+
+![Felipe](./assets/images/Felipe%20Tosta.png){: .team-member-picture }
+
+<div class="team-member-desc" markdown>
+
+Programador
+{: .small-text}
+
+**Felipe Tosta**
+{: .large-text .courier}
+
+@fatec.sp.gov.br
+{: .small-text}
+
+</div>
+
+</div>
+

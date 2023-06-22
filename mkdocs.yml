@@ -33,7 +33,7 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   
-extra_css: [assets/css/custom.css]
+extra_css: [assets/css/sobre.css]
 
 markdown_extensions:
   - attr_list
