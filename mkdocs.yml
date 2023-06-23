@@ -1,26 +1,70 @@
-site_name: ArenaFatec
+site_name: ArenaFatec Scheme
+repo_name: ArenaFatec Scheme
+repo_url: https://github.com/rossigalli/Arena-Fatec-Scheme
+copyright: Copyright &copy; 2023 - ArenaFatec
+
 
 nav:
   - Home: index.md
   - Sobre: sobre.md
 
-plugins:
-  - search:
-      lang: 
-        - pt
-        - en
+
+extra:
+  team:
+    alvaro:
+      name: Alvaro Luz
+      email: alvaro.luz@fatec.sp.gov.br
+      role: Gerente de Projeto
+
+    matheus:
+      name: Matheus Rossigalli
+      email: matheus.rossigalli@fatec.sp.gov.br
+      role: Autor | Gerente de Desenvolvimento
+
+    breno:
+      name: Breno Machado
+      email: breno.santos21@fatec.sp.gov.br
+      role: Programador
+
+    felipe:
+      name: Felipe Tosta
+      email: a@fatec.sp.gov.br
+      role: Programador
+
+  internal_link:
+    uml: ./#
+
+    process_model: ./#
+
+    requirements: ./#
+
+    design: ./#
+
+
+
+  external_link:
+    arenafatec: https://arenafatecss.games/
+    fatec_instagram: https://www.instagram.com/fatecsaosebastiao/
+    fatec_website: https://fatecsaosebastiao.edu.br/
+
+  social:
+    - icon: material/web
+      link: https://arenafatecss.games/
+    
+    - icon: material/github
+      link: https://github.com/rossigalli/Arena-Fatec-Scheme
+
 
 theme:
   name: material
   language: pt
   favicon: assets/images/favicon.ico
   logo: assets/images/logo.png
+
   feature:
     - navigation.top
 
-
   palette: 
-
     # Palette toggle for light mode
     - scheme: default
       toggle:
@@ -33,7 +77,14 @@ theme:
         icon: material/brightness-4
         name: Switch to light mode
   
-extra_css: [assets/css/sobre.css]
+extra_css: [assets/css/sobre.css, assets/css/custom.css]
+
+plugins:
+  - search:
+      lang: 
+        - pt
+        - en
+  - markdownextradata: {}
 
 markdown_extensions:
   - attr_list
@@ -41,3 +92,4 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+

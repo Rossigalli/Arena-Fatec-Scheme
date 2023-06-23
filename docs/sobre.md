@@ -1,32 +1,32 @@
 # Sobre
 
 O Arena Fatec é um projeto criado por Álvaro Machado da Luz e Matheus Costa Rossigalli, alunos da FATEC de São Sebastião. Nosso objetivo é oferecer um ambiente de competição e diversão para quem gosta de e-sports.
-{ .justify }  
+{ .justify .p}  
 
 Iniciamos nossa jornada em 2023, com a realização da primeira edição como uma atividade descontraída. A partir dessa experiência, decidimos aprimorar o projeto e realizar a segunda edição do Arena Fatec, com maior organização, equipe de apoio, equipe de desenvolvimento, um site próprio e melhor divulgação. 
-{ .justify }
+{ .justify .p}
 
 Nosso compromisso é tornar o Arena Fatec uma referência municipal em competições de e-sports, proporcionando um espaço onde jogadores de todos os níveis possam se reunir, se desafiar e se divertir. Valorizamos o espírito esportivo e o crescimento pessoal e coletivo dos participantes. 
-{: .justify }
+{: .justify .p}
 
 Além disso, buscamos destacar o nome da FATEC de São Sebastião como uma instituição líder na área de e-sports e eventos de entretenimento digital. 
-{: .justify }
+{: .justify .p}
 
 Agradecemos a todos que têm nos apoiado nessa jornada. Acompanhe nosso progresso e participe das próximas competições do Arena Fatec. Junte-se a nós e faça parte dessa comunidade apaixonada por jogos digitais! 
-{: .justify }
+{: .justify .p}
 
 
 <div class="social-media-container" markdown>
 
-[ :material-web: ArenaFatec](https://arenafatecss.games)
+[ :material-web: ArenaFatec]({{external_link.arenafatec}})
 
 |
 
-[ :fontawesome-brands-instagram: Fatec](https://www.instagram.com/fatecsaosebastiao/)
+[ :fontawesome-brands-instagram: Fatec]({{external_link.fatec_instagram}})
 
 |
 
-[ :material-web: Fatec](https://www.fatecsaosebastiao.edu.br)
+[ :material-web: Fatec]({{external_link.fatec_website}})
 
 </div>
 
@@ -40,13 +40,13 @@ Agradecemos a todos que têm nos apoiado nessa jornada. Acompanhe nosso progress
 
 <div class="team-member-desc" markdown>
 
-Gerente de Projeto
+{{team.alvaro.role}}
 {: .small-text}
 
-**Alvaro Luz**
+**{{team.alvaro.name}}**
 {: .large-text .courier}
 
-alvaro.luz@fatec.sp.gov.br
+{{team.alvaro.email}}
 {: .small-text}
 
 </div>
@@ -60,13 +60,13 @@ alvaro.luz@fatec.sp.gov.br
 
 <div class="team-member-desc" markdown>
 
-Autor | Gerente de Desenvolvimento
+{{team.matheus.role}}
 {: .small-text}
 
-**Matheus Rossigalli**
+**{{team.matheus.name}}**
 {: .large-text .courier}
 
-Matheus.rossigalli@fatec.sp.gov.br
+{{team.matheus.email}}
 {: .small-text}
 
 </div>
@@ -79,13 +79,13 @@ Matheus.rossigalli@fatec.sp.gov.br
 
 <div class="team-member-desc" markdown>
 
-Programador
+{{team.breno.role}}
 {: .small-text}
 
-**Breno Machado**
+**{{team.breno.name}}**
 {: .large-text .courier}
 
-breno.santos21@fatec.sp.gov.br
+{{team.breno.email}}
 {: .small-text}
 
 </div>
@@ -99,16 +99,15 @@ breno.santos21@fatec.sp.gov.br
 
 <div class="team-member-desc" markdown>
 
-Programador
+{{team.felipe.role}}
 {: .small-text}
 
-**Felipe Tosta**
+**{{team.felipe.name}}**
 {: .large-text .courier}
 
-@fatec.sp.gov.br
+{{team.felipe.email}}
 {: .small-text}
 
 </div>
 
 </div>
-
