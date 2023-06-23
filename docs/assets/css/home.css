@@ -30,12 +30,12 @@ p{
     margin-top: 50px;
 }
 
-.team-member-container:nth-child(odd) {
+.team-member-container:nth-child(even) {
     display: flex;
     flex-direction: row-reverse;
 }
 
-.team-member-container:nth-child(odd) .team-member-desc {
+.team-member-container:nth-child(even) .team-member-desc {
     text-align:right;
     white-space: nowrap;
 }
@@ -52,14 +52,14 @@ p{
         
     }
 
-    .team-member-container:nth-child(odd) {
+    .team-member-container:nth-child(even) {
         flex-direction: column;
     }
 
     .team-member-container .team-member-desc {
         text-align: center;
     }
-    .team-member-container:nth-child(odd) .team-member-desc {
+    .team-member-container:nth-child(even) .team-member-desc {
         text-align: center;
     }
 }
