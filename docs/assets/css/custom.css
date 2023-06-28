@@ -1,7 +1,29 @@
-h1{
+h1 {
     margin: 20px 0 !important;
 }
 
-.p{
+.my-10 {
     margin: 10px 0;
+}
+
+table {
+    border: none !important;
+}
+
+th {
+    display: none !important;
+}
+
+td {
+    border-bottom: 1px solid var(--md-typeset-table-color) !important;
+}
+
+
+.m-auto {
+    display: block;
+    margin: 0 auto;
+}
+
+.txt-center {
+    text-align: center;
 }

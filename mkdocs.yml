@@ -5,6 +5,11 @@ copyright: Copyright &copy; 2023 - ArenaFatec
 
 nav:
   - Home: index.md
+  - Requisitos:
+    - Contas: requirements/accounts.md
+  - Casos de uso:
+    - Acesso à conta: use-case/access-account.md
+    
 
 extra:
   team:
@@ -25,15 +30,16 @@ extra:
 
     felipe:
       name: Felipe Tosta
-      email: a@fatec.sp.gov.br
+      email: felipe.camara@fatec.sp.gov.br
       role: Programador
 
   internal_link:
-    uml: ./#
+    uml: 
+      use_case: use-case/access-account.md
 
     process_model: ./#
 
-    requirements: ./#
+    requirements: /requirements/accounts.md
 
     design: ./#
 
@@ -63,6 +69,7 @@ theme:
     #- navigation.sections
     - navigation.instant
     - navigation.instant.prefetch
+    #- navigation.indexes
     
 
   palette: 
