@@ -1,4 +1,4 @@
-p{
+p {
     margin: 0;
 }
 
@@ -18,7 +18,7 @@ p{
     font-family: monospace
 }
 
-.social-media-container{
+.social-media-container {
     display: flex;
     gap: 20px;
     margin-top: 20px;
@@ -26,21 +26,21 @@ p{
 
 .team-member-container {
     display: flex;
+    flex-direction: row;
     gap: 0 20px;
     margin-top: 50px;
 }
 
-.team-member-container:nth-child(odd) {
-    display: flex;
+.team-member-container:nth-child(even) {
     flex-direction: row-reverse;
 }
 
-.team-member-container:nth-child(odd) .team-member-desc {
-    text-align:right;
+.team-member-container:nth-child(even) .team-member-desc {
+    text-align: right;
     white-space: nowrap;
 }
 
-.team-member-picture{
+.team-member-picture {
     min-width: 150px;
     border-radius: 50%;
 }
@@ -49,17 +49,18 @@ p{
     .team-member-container {
         flex-direction: column;
         align-items: center;
-        
+
     }
 
-    .team-member-container:nth-child(odd) {
+    .team-member-container:nth-child(even) {
         flex-direction: column;
     }
 
     .team-member-container .team-member-desc {
         text-align: center;
     }
-    .team-member-container:nth-child(odd) .team-member-desc {
+
+    .team-member-container:nth-child(even) .team-member-desc {
         text-align: center;
     }
 }
